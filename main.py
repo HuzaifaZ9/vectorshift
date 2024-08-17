@@ -7,7 +7,9 @@ app = FastAPI()
 
 # Configure CORS
 origins = [
-    "http://localhost:3000",  # React frontend
+    "http://localhost:3000", 
+    "https://huzaifaz9.github.io",
+    # React frontend
     # Add other origins as needed
 ]
 
